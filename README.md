@@ -21,12 +21,11 @@ This script automates that process and gives you the links to users who don’t 
 run it now
 
 ```nu
-curl -fsSL https://raw.githubusercontent.com/santoshxshrestha/gh-unfollowers/main/gh-unfollowers.nu | nu
 
+curl -fsSL -o /tmp/gh-unfollowers.nu https://raw.githubusercontent.com/santoshxshrestha/gh-unfollowers/main/gh-unfollowers.nu; nu /tmp/gh-unfollowers.nu
 ```
 
 or save it and run it later
-
 ```nu
 curl -fsSL -o gh-unfollowers.nu https://raw.githubusercontent.com/santoshxshrestha/gh-unfollowers/main/gh-unfollowers.nu
 nu gh-unfollowers.nu
