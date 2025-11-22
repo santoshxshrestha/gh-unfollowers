@@ -15,6 +15,7 @@ This script automates that process and gives you the links to users who don’t 
 - Checks the followers of a given GitHub username.
 - Returns the list of users you follow who aren’t following you back.
 - Supports optional GitHub Personal Access Token (PAT) for higher API limits.
+- Handles GitHub API pagination to fetch all followers and following (not just the first 30).
 
 ## Usage
 
