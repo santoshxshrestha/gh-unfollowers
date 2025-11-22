@@ -1,6 +1,5 @@
 #!/usr/bin/env nu
 
-# Function to fetch all pages from GitHub API
 def fetch_all_pages [url: string, headers?: record] {
     mut all_data = []
     mut page = 1
